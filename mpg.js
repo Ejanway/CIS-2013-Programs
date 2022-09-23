@@ -1,7 +1,8 @@
-var= floatAge, floatDays, intWeeks, floatMonths, intFortnights
-floatAge= ("Enter age in years") 
-floatDays = parseFloat(floatAge*365.25);
-floatMonths = prompt(floatAge*12);
-intWeeks = parseFloat(floatDays/7);
-intFortnights = parseFloat(floatDays/14).toFixed(2);
+var = Age, Days, Weeks, Months, Fortnights;
+Age= prompt("Enter age in years");
+Age= parseFloat(Age);
+Days = Age*365.25;
+Months = Age*12;
+Weeks = floatDays/7;
+Fortnights = Days/14;
 alert("Age"+ "Days"+ "Weeks"+"Months"+"Fortnights");  
