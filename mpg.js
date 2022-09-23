@@ -1,4 +1,4 @@
-<script
+<script>
   var = Age, Days, Weeks, Months, Fortnights;
   Age= prompt("Enter age in years");
   Age= parseFloat(Age);
