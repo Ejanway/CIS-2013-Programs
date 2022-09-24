@@ -1,11 +1,11 @@
 var floatAge;
+floatAge= promt("Enter age in years");
 var floatDays;
+floatDays= (floatAge*365.26);
 var intWeeks;
+intWeeks= (floatDays/7);
 var floatMonths;
+floatMonths= (floatAge*12)
 var intFortnights;
-floatAge= promt("Enter age in years"); 
-floatDays= floatAge*365.26;
-floatMonths= floatAge*12;
-intWeeks= floatDays/14;
-
-
+intFortnights= (floatDays/14);
+alert("Age=" + floatMonths + intWeeks + floatDays + intFortnights);
