@@ -23,7 +23,7 @@ var $ = function (id)
  
  window.onload = function () 
 {
-    $("years_of_payment").value = "";
+    $("years_of_payment").value = "years_of_payment";
     $("total_cost").value = "total_house_cost";
     $("calc").onclick = calculate;
     $("monthly_payment").focus();
