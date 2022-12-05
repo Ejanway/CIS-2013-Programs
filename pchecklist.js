@@ -13,7 +13,7 @@ var passwordCheckOld = function ()
     
     stringOutput = "";
  
-  if(stringPassword.length < 9)
+  if(stringPassword.length < 8)
   {
     stringOutput = "The password is to short"
   }
